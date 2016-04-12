@@ -23,5 +23,11 @@ RSpec.describe Article, type: :model do
       expect(a.author).to eq("Luke")
     end
     
+    it "Key is generated properly" do
+      a = Article.first
+      
+      expect(a.key).to eq("Luke:2009:art1")
+    end
+    
   end
 end
