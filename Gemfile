@@ -40,6 +40,10 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :production do
+  gem 'pg'
+end
+
 group :test do 
   gem 'factory_girl_rails'
   gem 'simplecov', require: false
