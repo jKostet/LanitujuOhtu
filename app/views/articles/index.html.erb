@@ -1,14 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Articles</h1>
-
+<p> Total number of articles: <%= Article.count %> </p>
 <table>
   <thead>
     <tr>
-      <th>Author</th>
-      <th>Title</th>
-      <th>Journal</th>
-      <th>Year</th>
+      <th>Article key</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,10 +13,7 @@
   <tbody>
     <% @articles.each do |article| %>
       <tr>
-        <td><%= article.author %></td>
-        <td><%= article.title %></td>
-        <td><%= article.journal %></td>
-        <td><%= article.year %></td>
+        <td><%= article.key %></td>
         <td><%= link_to 'Show', article %></td>
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
         <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -32,10 +26,10 @@
 <pre>
   <% @articles.each do |article| %>
     @article{<%= article.key %>,
-    author = {<%= article.author %>},
-    title = {<%= article.title %>},
-    journal = {<%= article.journal %>},
-    year = {<%= article.year %>},
+      author = {<%= article.author %>},
+      title = {<%= article.title %>},
+      journal = {<%= article.journal %>},
+      year = {<%= article.year %>},
     }
 
   <% end %>
