@@ -4,5 +4,5 @@ rvm:
 
 deploy:
   provider: heroku
-  api_key: ...
-  app: my-app-123
+  api_key: d1cfe9bd-f9f7-4055-ad3a-b115c83d1489
+  app: lanitujuohtu
