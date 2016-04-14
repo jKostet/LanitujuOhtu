@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @inproceeding.author %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @inproceeding.title %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @inproceeding.year %>
+</p>
+
+<p>
+  <strong>Booktitle:</strong>
+  <%= @inproceeding.booktitle %>
+</p>
+
+<pre>
+  @inproceedings{<%= @inproceeding.key %>,
+      author = {<%= @inproceeding.author %>},
+      title = {<%= @inproceeding.title %>},
+      publisher = {<%= @inproceeding.publisher %>},
+      year = {<%= @inproceeding.year %>},
+    }
+</pre>
+
+<%= link_to 'Edit', edit_inproceeding_path(@inproceeding) %> |
+<%= link_to 'Back', inproceedings_path %>

@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Inproceedings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Author</th>
+      <th>Title</th>
+      <th>Year</th>
+      <th>Booktitle</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @inproceedings.each do |inproceeding| %>
+      <tr>
+        <td><%= inproceeding.author %></td>
+        <td><%= inproceeding.title %></td>
+        <td><%= inproceeding.year %></td>
+        <td><%= inproceeding.booktitle %></td>
+        <td><%= link_to 'Show', inproceeding %></td>
+        <td><%= link_to 'Edit', edit_inproceeding_path(inproceeding) %></td>
+        <td><%= link_to 'Destroy', inproceeding, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<pre>
+  <% @inproceeding.each do |inp| %>
+    @inproceedings{<%= inp.key %>,
+      author = {<%= inp.author %>},
+      title = {<%= inp.title %>},
+      publisher = {<%= inp.publisher %>},
+      year = {<%= inp.year %>},
+    }
+
+  <% end %>
+</pre>
+
+<br>
+
+<%= link_to 'New Inproceeding', new_inproceeding_path %>

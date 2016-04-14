@@ -20,5 +20,14 @@
   <%= @book.year %>
 </p>
 
+<pre>
+  @book{<%= @book.key %>,
+      author = {<%= @book.author %>},
+      title = {<%= @book.title %>},
+      publisher = {<%= @book.publisher %>},
+      year = {<%= @book.year %>},
+    }
+</pre>
+
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
