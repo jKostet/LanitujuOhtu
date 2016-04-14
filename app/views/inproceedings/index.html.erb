@@ -29,11 +29,11 @@
 </table>
 
 <pre>
-  <% @inproceeding.each do |inp| %>
+  <% @inproceedings.each do |inp| %>
     @inproceedings{<%= inp.key %>,
       author = {<%= inp.author %>},
       title = {<%= inp.title %>},
-      publisher = {<%= inp.publisher %>},
+      booktitle = {<%= inp.booktitle %>},
       year = {<%= inp.year %>},
     }
 
