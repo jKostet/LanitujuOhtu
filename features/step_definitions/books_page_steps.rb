@@ -9,12 +9,10 @@ end
 
 When /^I press the Books link$/  do
 	visit books_path
-	save_and_open_page
-	page.should have_content("@article{Kirjailija:1999:boo1, author = {Kirjailija}, title = {Nimi}, publisher = {Joku}, year = {1999}, }")
 end
 
 Then /^I should get to the books page that shows all the books and their bibtext$/ do
-	  pending # Write code here that turns the phrase above into concrete actions
+	expect(page).to have_content("@article{Kirjailija:1999:boo1, author = {Kirjailija}, title = {Nimi}, publisher = {Joku}, year = {1999}, }")
 end
 
 Given /^I am on the new book page$/  do
