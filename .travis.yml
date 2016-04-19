@@ -6,5 +6,4 @@ deploy:
   provider: heroku
   api_key: d1cfe9bd-f9f7-4055-ad3a-b115c83d1489
   app: lanitujuohtu
-  run: "bundle update"
   run: "rake db:migrate"
