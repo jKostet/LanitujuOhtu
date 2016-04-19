@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'file/write_bibtex_to_file'
+
   resources :inproceedings
   resources :books
   resources :articles
@@ -9,7 +11,7 @@ Rails.application.routes.draw do
   root 'articles#showall'
 
   get '/showall', to: 'articles#showall'
-
+  get '/raw', to: 'file#downloadbibtex'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
