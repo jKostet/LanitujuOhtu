@@ -17,4 +17,13 @@
     }
 
   <% end %>
+  <% @inproceedings.each do |ip| %>
+    @inproceeding{<%= ip.key %>,
+      author = {<%= ip.author %>},
+      title = {<%= ip.title %>},
+      booktitle = {<%= ip.booktitle %>},
+      year = {<%= ip.year %>},
+    }
+
+  <% end %>
 </pre>

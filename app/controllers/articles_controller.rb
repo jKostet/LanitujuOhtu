@@ -19,6 +19,7 @@
   def showall
     @articles = Article.all
     @books = Book.all
+    @inproceedings = Inproceeding.all
   end
 
   # GET /articles/1/edit
