@@ -1,23 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/application_helper.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/articles_helper.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/books_helper.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/helpers/books_helper.rb": [
         1,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
         1,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/articles_controller.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/controllers/articles_controller.rb": [
         1,
         1,
         null,
@@ -93,90 +93,14 @@
         null,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/application_controller.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/books_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/controllers/books_controller.rb": [
         1,
         1,
         null,
@@ -252,7 +176,83 @@
         null,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/article.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/nroos/Programming/LanitujuOhtu/app/models/article.rb": [
         1,
         null,
         1,
@@ -266,7 +266,7 @@
         null,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/book.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
         1,
         null,
         1,
@@ -274,7 +274,7 @@
         null,
         null
       ],
-      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/inproceeding.rb": [
+      "/home/nroos/Programming/LanitujuOhtu/app/models/inproceeding.rb": [
         1,
         null,
         1,
@@ -283,6 +283,6 @@
         null
       ]
     },
-    "timestamp": 1460647548
+    "timestamp": 1461067324
   }
 }
