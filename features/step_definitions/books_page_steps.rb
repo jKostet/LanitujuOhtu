@@ -12,7 +12,7 @@ When /^I press the Books link$/  do
 end
 
 Then /^I should get to the books page that shows all the books and their bibtext$/ do
-	expect(page).to have_content("@article{Kirjailija:1999:boo1, author = {Kirjailija}, title = {Nimi}, publisher = {Joku}, year = {1999}, }")
+	expect(page).to have_content("@book{Kirjailija:1999:boo1, author = {Kirjailija}, title = {Nimi}, publisher = {Joku}, year = {1999}, }")
 end
 
 Given /^I am on the new book page$/  do
