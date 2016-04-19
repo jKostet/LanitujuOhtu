@@ -1,6 +1,6 @@
-Given /^I am on the main page$/ do
-	visit root_path
-end
+#Given /^I am on the main page$/ do
+#	visit root_path
+#end
 
 Given /^there exists a book in the database$/  do
 	Book.create title: "Nimi", publisher:"Joku", year:1999, author:"Kirjailija"
