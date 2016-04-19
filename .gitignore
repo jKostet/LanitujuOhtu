@@ -23,3 +23,5 @@
 #Ignore vim files
 /*.swp
 
+#Ignore test coverages
+/coverage/*
