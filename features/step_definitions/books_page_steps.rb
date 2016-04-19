@@ -3,12 +3,14 @@ Given /^I am on the main page$/ do
 end
 
 Given /^there exists a book in the database$/  do
-
+	Book.create title: "Nimi", publisher:"Joku", year:1999, author:"Kirjailija"
 end
 
 
 When /^I press the Books link$/  do
 	visit books_path
+	save_and_open_page
+	page.should have_content("@article{Kirjailija:1999:boo1, author = {Kirjailija}, title = {Nimi}, publisher = {Joku}, year = {1999}, }")
 end
 
 Then /^I should get to the books page that shows all the books and their bibtext$/ do
