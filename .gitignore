@@ -19,3 +19,9 @@
 
 # Ignore all files with ~
 /*~
+
+#Ignore vim files
+*.swp
+
+#Ignore test coverages
+/coverage/*
