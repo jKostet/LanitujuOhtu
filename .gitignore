@@ -19,3 +19,7 @@
 
 # Ignore all files with ~
 /*~
+
+#Ignore vim files
+/*.swp
+
