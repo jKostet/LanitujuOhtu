@@ -12,6 +12,7 @@ class InproceedingsController < ApplicationController
   def show
   end
 
+
   # GET /inproceedings/new
   def new
     @inproceeding = Inproceeding.new

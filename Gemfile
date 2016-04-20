@@ -49,8 +49,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'capybara'
   gem 'launchy'
-  gem 'cucumber-rails', :require => false
-  # is not required, but highly recommended
+  gem 'cucumber-rails'
   gem 'database_cleaner'
 end
 
