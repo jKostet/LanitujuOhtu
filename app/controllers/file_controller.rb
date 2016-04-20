@@ -1,8 +1,8 @@
 class FileController < ApplicationController
-  def write_bibtex_to_file(content)
+  def write_bibtex_to_file
     File.open("/public/raw.bib", 'w') do |f|
       f.truncate(0)
-      f.write(content)
+      
     end
   end
   def downloadbibtex
