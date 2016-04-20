@@ -1,23 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/application_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/articles_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/books_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/books_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/articles_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/articles_controller.rb": [
         1,
         1,
         null,
@@ -36,88 +36,10 @@
         1,
         0,
         null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         0,
         0,
         0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/books_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
         null,
         null,
         null,
@@ -176,7 +98,17 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/books_controller.rb": [
         1,
         1,
         null,
@@ -252,7 +184,83 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/article.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/article.rb": [
         1,
         null,
         1,
@@ -266,7 +274,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/book.rb": [
         1,
         null,
         1,
@@ -274,7 +282,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/inproceeding.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/inproceeding.rb": [
         1,
         null,
         1,
@@ -283,6 +291,6 @@
         null
       ]
     },
-    "timestamp": 1461067324
+    "timestamp": 1461139604
   }
 }
