@@ -19,3 +19,10 @@ Feature: Book Page
 		When  I press 'Create Book'
 		Then  Page should go to listing of all books and contain correct bibtex
 		
+	Scenario: Remove a book
+
+		Given I press the Books link
+		And there exists a book in the database
+		When I press Destroy on the specified book
+		Then Page should refresh and the book should no longer exist
+		
