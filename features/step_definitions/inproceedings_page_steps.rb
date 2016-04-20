@@ -53,5 +53,5 @@ When /^I press 'destroy' button$/ do
 end
 
 Then /^The list of inproceedings should not show created inproceeding$/ do
-  page.should have_no_content("@inproceedings{Hiiri:1981:inp1, author = {Hiiri}, title = {Juusto}, booktitle = {Eläinten ravitsemustiede}, year = {1981}, }")
+  expect(page).to_not have_content("@inproceedings{Hiiri:1981:inp1, author = {Hiiri}, title = {Juusto}, booktitle = {Eläinten ravitsemustiede}, year = {1981}, }")
 end
