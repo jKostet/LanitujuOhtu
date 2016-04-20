@@ -18,4 +18,3 @@ Feature: Book Page
 		And   I fill in 'Year' with 1999
 		When  I press 'Create Book'
 		Then  Page should go to listing of all books and contain correct bibtex
-		
