@@ -30,13 +30,7 @@
 
 <pre>
   <% @inproceedings.each do |inp| %>
-    @inproceedings{<%= inp.key %>,
-      author = {<%= inp.author %>},
-      title = {<%= inp.title %>},
-      booktitle = {<%= inp.booktitle %>},
-      year = {<%= inp.year %>},
-    }
-
+<%= inp.generateBibtex %>
   <% end %>
 </pre>
 

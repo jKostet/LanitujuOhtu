@@ -12,7 +12,7 @@ When /^I press the inproceedings link$/  do
 end
 
 Then /^I should get to page that shows all inproceedings and their bibtext$/ do
-  expect(page).to have_content("@inproceedings{Kivi:2004:inp1, author = {Kivi}, title = {Muuttolinnut pohjoisen pallonpuoliskon illassa}, booktitle = {Jeesus}, year = {2004}, }")
+  expect(page).to have_content("eding{Kivi:2004:inp1, author = {Kivi}, title = {Muuttolinnut pohjoisen pallonpuoliskon illassa}, booktitle = {Jeesus}, year = {2004}")
 end
 
 Given /^I am on the new inproceeding page$/ do
@@ -32,7 +32,7 @@ end
 
 Then /^Should go to list of inproceedings and show the new inproceeding$/ do
   expect(page).to have_content("Inproceeding was successfully created.")
-  expect(page).to have_content("@inproceedings{Koira:1765:inp1, author = {Koira}, title = {Kevät}, booktitle = {Vuodenajat}, year = {1765}, }")
+  expect(page).to have_content("eding{Koira:1765:inp1, author = {Koira}, title = {Kevät}, booktitle = {Vuodenajat}, year = {1765}")
 end
 
 Given /^I create new inproceeding$/ do
