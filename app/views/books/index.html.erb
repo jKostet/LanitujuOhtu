@@ -30,12 +30,7 @@
 
 <pre>
   <% @books.each do |book| %>
-    @book{<%= book.key %>,
-      author = {<%= book.author %>},
-      title = {<%= book.title %>},
-      publisher = {<%= book.publisher %>},
-      year = {<%= book.year %>},
-    }
+<%= book.generateBibtex %>
 
   <% end %>
 </pre>
