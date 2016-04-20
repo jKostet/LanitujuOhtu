@@ -132,7 +132,6 @@
         1,
         0,
         null,
-        null,
         null
       ],
       "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
@@ -143,7 +142,7 @@
         null,
         null,
         1,
-        0,
+        4,
         null,
         null
       ],
@@ -154,7 +153,7 @@
         4,
         null,
         1,
-        0,
+        4,
         null,
         null
       ],
@@ -338,7 +337,7 @@
         0
       ]
     },
-    "timestamp": 1461169095
+    "timestamp": 1461170804
   },
   "RSpec": {
     "coverage": {
@@ -652,7 +651,6 @@
         1,
         2,
         null,
-        null,
         null
       ],
       "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
@@ -663,7 +661,7 @@
         null,
         null,
         1,
-        0,
+        2,
         null,
         null
       ],
@@ -679,6 +677,6 @@
         null
       ]
     },
-    "timestamp": 1461169092
+    "timestamp": 1461170801
   }
 }

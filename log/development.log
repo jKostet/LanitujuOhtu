@@ -9578,3 +9578,21 @@ Processing by ArticlesController#index as HTML
   [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
   Rendered articles/index.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/raw" for ::1 at 2016-04-20 19:33:26 +0300
+Processing by FileController#downloadbibtex as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+Sent file public/raw.bib (0.0ms)
+Completed 200 OK in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/raw" for ::1 at 2016-04-20 19:33:26 +0300
+Processing by FileController#downloadbibtex as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35mInproceeding Load (0.1ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+Sent file public/raw.bib (0.1ms)
+Completed 200 OK in 2ms (ActiveRecord: 0.4ms)
