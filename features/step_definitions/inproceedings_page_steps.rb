@@ -7,11 +7,11 @@ Given /^there exists an inproceeding in the database$/  do
 end
 
 
-When /^I press the Inproceedings link$/  do
+When /^I press the inproceedings link$/  do
   visit inproceedings_path
 end
 
-Then /^I should get to page that shows all inproseedings and their bibtext$/ do
+Then /^I should get to page that shows all inproceedings and their bibtext$/ do
   expect(page).to have_content("@inproceedings{Kivi:2004:inp1, author = {Kivi}, title = {Muuttolinnut pohjoisen pallonpuoliskon illassa}, booktitle = {Jeesus}, year = {2004}, }")
 end
 

@@ -7,8 +7,8 @@ Feature: Inproceedings Page
   Scenario: Opens the index page
     Given I am on main page
     And there exists an inproceeding in the database
-    When I press the Inproceedings link
-    Then I should get to page that shows all inproseedings and their bibtext
+    When I press the inproceedings link
+    Then I should get to page that shows all inproceedings and their bibtext
 
   Scenario: Adds new inproceeding
     Given I am on the new inproceeding page
