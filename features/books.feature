@@ -17,7 +17,6 @@ Feature: Book Page
 		And   I fill in 'Publisher' with 'Julkaisija'
 		And   I fill in 'Year' with 1999
 		When  I press 'Create Book'
-<<<<<<< HEAD
 		Then  Page should go to listing of all books and contain correct bibtex
 		
 	Scenario: Remove a book
@@ -27,6 +26,3 @@ Feature: Book Page
 		When I press Destroy on the specified book
 		Then Page should refresh and the book should no longer exist
 		
-=======
-		Then  Page should go to listing of all books and contain correct bibtex
->>>>>>> 7201f1761cb526f8cbedc8b76926c215a1109f59
