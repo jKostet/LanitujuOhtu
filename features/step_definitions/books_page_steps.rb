@@ -25,7 +25,7 @@ Given /^I fill in 'Author' with 'HupsuNimi'$/  do
 end
 
 Given /^I fill in 'Title'  with 'KirjanNimi'$/  do
-	fill_in 'book_title', :with => 'KirjanNimi'	
+	fill_in 'book_title', :with => 'KirjanNimi'
 end
 
 Given /^I fill in 'Publisher' with 'Julkaisija'$/  do
