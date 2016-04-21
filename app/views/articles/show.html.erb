@@ -23,13 +23,7 @@
   <%= @article.year %>
 </p>
 <pre>
-    @article{<%=@article.key%>,<br/>
-      author="<%=@article.author%>",<br/>
-      title="<%=@article.title%>",<br/>
-      journal="<%=@article.journal%>",<br/>
-      year="<%=@article.year%>",<br/>
-    }
+<%= @article.generateBibtex %>
 </pre>
-
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

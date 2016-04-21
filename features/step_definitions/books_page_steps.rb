@@ -4,6 +4,7 @@ end
 
 Given /^there exists a book in the database$/  do
 	Book.create title: "Nimi", publisher:"Joku", year:1999, author:"Kirjailija"
+	visit books_path
 end
 
 
@@ -46,5 +47,26 @@ Then /^Page should go to listing of all books and contain correct bibtex$/  do
 						       publisher = {Julkaisija},
 						             year = {1999},
 							         }")
+end
+
+When(/^I press Destroy on the specified book$/) do
+	click_on('Destroy')
+
+end
+
+
+
+Then(/^Page should refresh and the book should no longer exist$/) do
+	expect(page).to_not have_content("@book{HupsuNimi:1999:boo1,
+				           author = {HupsuNimi},
+					         title = {KirjanNimi},
+						       publisher = {Julkaisija},
+						             year = {1999},
+							         }")
+end
+
+
+Then(/^The page should say "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
 end
 
