@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/articles_controller.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/articles_controller.rb": [
         1,
         1,
         null,
@@ -82,7 +82,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/application_controller.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -92,31 +92,31 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/application_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/articles_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/books_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/books_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/file_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
         1,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/article.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/article.rb": [
         1,
         null,
         1,
@@ -134,7 +134,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/book.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/book.rb": [
         1,
         null,
         1,
@@ -152,7 +152,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/inproceeding.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/models/inproceeding.rb": [
         1,
         null,
         1,
@@ -169,7 +169,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/books_controller.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/books_controller.rb": [
         1,
         1,
         null,
@@ -245,7 +245,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
         1,
         1,
         null,
@@ -322,7 +322,7 @@
         null,
         null
       ],
-      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/file_controller.rb": [
+      "/Users/Jussi/Documents/koulu/ohtu/miniporjekti/LanitujuOhtu/app/controllers/file_controller.rb": [
         0,
         0,
         0,
@@ -349,7 +349,7 @@
         0
       ]
     },
-    "timestamp": 1461230293
+    "timestamp": 1461232162
   },
   "RSpec": {
     "coverage": {
