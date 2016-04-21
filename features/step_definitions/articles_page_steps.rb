@@ -33,3 +33,25 @@ Then /^Should go to list of articles and show the details of new article$/ do
   expect(page).to have_content("Article was successfully created.")
   expect(page).to have_content("@article{Jeesus:23:art1, author = {Jeesus}, title = {Armo}, journal = {Kristityt}, year = {23}")
 end
+
+Given /^I fill new article form without title$/ do
+  fill_in('Author', :with => "Jesse")
+  fill_in('Title', :with => "")
+  fill_in('Journal', :with => "Journaali")
+  fill_in('Year', :with => "1878")
+end
+
+When /^I press creating button$/ do
+  click_button('Create Article')
+end
+
+Then /^Should show an error message$/ do
+  expect(page).to have_content("Title can't be blank")
+end
+
+Then /^Should not create new article$/ do
+  visit articles_path
+  expect(page).to_not have_content("@article{Jesse:1878:art1, author = {Jesse}, title = {""}, journal = {Journaali}, year = {1878}")
+end
+
+
