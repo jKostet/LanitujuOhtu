@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-20T19:46:44+03:00">2016-04-20T19:46:44+03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-21T14:44:33+03:00">2016-04-21T14:44:33+03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">62.99%</span></span>
+    (<span class="covered_percent"><span class="red">63.4%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.33
+         1.34
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>14</b> files in total.
-    <b>154</b> relevant lines. 
+    <b>153</b> relevant lines. 
     <span class="green"><b>97</b> lines covered</span> and
-    <span class="red"><b>57</b> lines missed </span>
+    <span class="red"><b>56</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -82,11 +82,11 @@
       
       <tr>
         <td class="strong"><a href="#be7f3de186de8ee91df5d6c5c73dea7d96c2716f" class="src_link" title="app/controllers/file_controller.rb">app/controllers/file_controller.rb</a></td>
-        <td class="red strong">12.5 %</td>
-        <td>24</td>
-        <td>24</td>
+        <td class="red strong">13.04 %</td>
+        <td>23</td>
+        <td>23</td>
         <td>3</td>
-        <td>21</td>
+        <td>20</td>
         <td>0.1</td>
       </tr>
       
@@ -199,7 +199,7 @@
           <div class="file_list_container" id="Controllers">
   <h2>
     <span class="group_name">Controllers</span>
-    (<span class="covered_percent"><span class="red">55.81%</span></span>
+    (<span class="covered_percent"><span class="red">56.25%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
@@ -210,9 +210,9 @@
   <a name="Controllers"></a>
   <div>
     <b>5</b> files in total.
-    <b>129</b> relevant lines. 
+    <b>128</b> relevant lines. 
     <span class="green"><b>72</b> lines covered</span> and
-    <span class="red"><b>57</b> lines missed </span>
+    <span class="red"><b>56</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -260,11 +260,11 @@
       
       <tr>
         <td class="strong"><a href="#be7f3de186de8ee91df5d6c5c73dea7d96c2716f" class="src_link" title="app/controllers/file_controller.rb">app/controllers/file_controller.rb</a></td>
-        <td class="red strong">12.5 %</td>
-        <td>24</td>
-        <td>24</td>
+        <td class="red strong">13.04 %</td>
+        <td>23</td>
+        <td>23</td>
         <td>3</td>
-        <td>21</td>
+        <td>20</td>
         <td>0.1</td>
       </tr>
       
@@ -1591,11 +1591,11 @@
         <div class="source_table" id="be7f3de186de8ee91df5d6c5c73dea7d96c2716f">
   <div class="header">
     <h3>app/controllers/file_controller.rb</h3>
-    <h4><span class="red">12.5 %</span> covered</h4>
+    <h4><span class="red">13.04 %</span> covered</h4>
     <div>
-      <b>24</b> relevant lines. 
+      <b>23</b> relevant lines. 
       <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>21</b> lines missed.</span>
+      <span class="red"><b>20</b> lines missed.</span>
     </div>
   </div>
   
@@ -1611,7 +1611,7 @@
         <li class="covered" data-hits="1" data-linenumber="2">
           <span class="hits">1</span>
           
-          <code class="ruby">   def write_bibtex_to_file(content)</code>
+          <code class="ruby">   def write_bibtex_to_file</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="3">
@@ -1629,91 +1629,91 @@
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">       f.write(content)</code>
+          <code class="ruby">	str = &quot;&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">     end</code>
+          <code class="ruby">	Article.all.each do |a|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">   end</code>
+          <code class="ruby">		str = str &lt;&lt; a.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="8">
           
-          <code class="ruby">  def downloadbibtex	</code>
+          
+          <code class="ruby">	end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="9">
           
           
-          <code class="ruby">	str = &quot;&quot;</code>
+          <code class="ruby">	Book.all.each do |b|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="10">
           
           
-          <code class="ruby">	Article.all.each do |a|</code>
+          <code class="ruby">		str = str &lt;&lt; b.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="11">
           
           
-          <code class="ruby">		str = str &lt;&lt; a.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="12">
           
           
-          <code class="ruby">	end</code>
+          <code class="ruby">	Inproceeding.all.each do |i|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby">	Book.all.each do |b|</code>
+          <code class="ruby">		str = str &lt;&lt; i.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby">		str = str &lt;&lt; b.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
+          <code class="ruby">        end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="15">
           
           
-          <code class="ruby">	end</code>
+          <code class="ruby">       f.write(str)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="16">
           
           
-          <code class="ruby">	Inproceeding.all.each do |i|</code>
+          <code class="ruby">     end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="17">
           
           
-          <code class="ruby">		str = str &lt;&lt; i.generateBibtex &lt;&lt; &quot;\n\n&quot;</code>
+          <code class="ruby">   end</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">	end</code>
+          <code class="ruby">  def downloadbibtex	</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="19">
           
           
-          <code class="ruby">	write_bibtex_to_file(str)</code>
+          <code class="ruby">	write_bibtex_to_file</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="20">
@@ -1731,16 +1731,10 @@
         <li class="missed" data-hits="0" data-linenumber="22">
           
           
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
-          
           <code class="ruby">end</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="24">
+        <li class="missed" data-hits="0" data-linenumber="23">
           
           
           <code class="ruby"></code>
