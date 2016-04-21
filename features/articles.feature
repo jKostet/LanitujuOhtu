@@ -15,3 +15,10 @@ Feature: Article Page
     And I fill new article form
     When I press 'create article' button
     Then Should go to list of articles and show the details of new article
+
+  Scenario: Shows an error message if required details are not filled
+    Given I am on the new article page
+    And I fill new article form without title
+    When I press creating button
+    Then Should show an error message
+    And Should not create new article
