@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe "inproceedings/edit", type: :view do
   before(:each) do
     @inproceeding = assign(:inproceeding, Inproceeding.create!(
-      :author => "",
-      :title => "",
-      :year => "",
+      :author => "Michael Jordan",
+      :title => "Dunking",
+      :year => "1992",
       :booktitle => "MyString"
     ))
   end
