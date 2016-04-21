@@ -17,7 +17,7 @@ describe "Articles page" do
     
     it "Spits out the correct bibtex" do
       visit articles_path
-      expect(page).to have_content "@article{Luke:2009:art1, author = {Luke}, title = {ohtuPruju}, journal = {ReadMe}, year = {2009}, }"
+      expect(page).to have_content "@article{Luke:2009:art1, author = {Luke}, title = {ohtuPruju}, journal = {ReadMe}, year = {2009}"
     end
     
   end

@@ -9,4 +9,8 @@ class Article < ActiveRecord::Base
   def key
     s = "" << self.author << ":" << self.year.to_s << ":" << "art" << self.id.to_s
   end
+
+  def generateBibtex
+	s= "@article{" << self.key << ",\n" << "\tauthor = {" << self.author << "},\n" << "\ttitle = {" << self.title << "},\n" << "\tjournal = {" << self.journal << "},\n" << "\tyear = {" << self.year.to_s << "},\n}"
+  end
 end
