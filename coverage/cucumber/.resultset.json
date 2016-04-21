@@ -1,44 +1,44 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/articles_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/articles_controller.rb": [
         1,
         1,
         null,
         null,
         null,
         1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        1,
-        2,
-        2,
         2,
         null,
         null,
         null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        3,
+        3,
+        3,
+        null,
+        null,
+        null,
         1,
         null,
         null,
         null,
         null,
         1,
-        0,
+        1,
         null,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        2,
+        1,
         null,
         0,
         0,
@@ -78,11 +78,11 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/application_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -92,31 +92,31 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/application_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/articles_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/books_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/books_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/file_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/article.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/article.rb": [
         1,
         null,
         1,
@@ -126,16 +126,22 @@
         null,
         null,
         1,
-        0,
+        4,
         null,
         null,
         1,
-        0,
+        2,
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/book.rb": [
         1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         1,
         4,
@@ -146,8 +152,14 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/inproceeding.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/inproceeding.rb": [
         1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         1,
         4,
@@ -157,7 +169,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/books_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/books_controller.rb": [
         1,
         1,
         null,
@@ -233,7 +245,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
         1,
         1,
         null,
@@ -310,7 +322,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/file_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/file_controller.rb": [
         0,
         0,
         0,
@@ -337,35 +349,35 @@
         0
       ]
     },
-    "timestamp": 1461170804
+    "timestamp": 1461230293
   },
   "RSpec": {
     "coverage": {
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/application_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/articles_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/articles_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/books_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/books_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/file_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/file_controller_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/helpers/inproceedings_helper.rb": [
         1,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/articles_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/articles_controller.rb": [
         1,
         1,
         null,
@@ -446,7 +458,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/application_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -456,7 +468,7 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/books_controller.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/books_controller.rb": [
         1,
         1,
         null,
@@ -469,109 +481,6 @@
         null,
         null,
         1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/file_controller.rb": [
-        1,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/nroos/Programming/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
         null,
         null,
         null,
@@ -635,7 +544,110 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/article.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/file_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/controllers/inproceedings_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/article.rb": [
         1,
         null,
         1,
@@ -653,8 +665,14 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/book.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/book.rb": [
         1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         1,
         3,
@@ -665,8 +683,14 @@
         null,
         null
       ],
-      "/home/nroos/Programming/LanitujuOhtu/app/models/inproceeding.rb": [
+      "/home/lauranor/projects/Ohtut/LanitujuOhtu/app/models/inproceeding.rb": [
         1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -677,6 +701,6 @@
         null
       ]
     },
-    "timestamp": 1461170801
+    "timestamp": 1461230289
   }
 }
