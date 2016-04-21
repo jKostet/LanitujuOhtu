@@ -23298,3 +23298,373 @@ Processing by InproceedingsController#index as HTML
   Rendered inproceedings/index.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by InproceedingsController#new as HTML
+  Rendered inproceedings/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "inproceedings"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/articles" for 127.0.0.1 at 2016-04-21 11:21:29 +0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 411ms (Views: 402.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("author", "year", "title", "journal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Luke"], ["year", 2009], ["title", "ohtuPruju"], ["journal", "ReadMe"], ["created_at", "2016-04-21 08:21:29.852398"], ["updated_at", "2016-04-21 08:21:29.852398"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/articles" for 127.0.0.1 at 2016-04-21 11:21:29 +0300
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "articles" ("author", "year", "title", "journal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Luke"], ["year", 2009], ["title", "ohtuPruju"], ["journal", "ReadMe"], ["created_at", "2016-04-21 08:21:29.864470"], ["updated_at", "2016-04-21 08:21:29.864470"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/articles" for 127.0.0.1 at 2016-04-21 11:21:29 +0300
+Processing by ArticlesController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "articles" ("title", "author", "year", "journal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "Pekka"], ["author", "Joku"], ["year", 1999], ["journal", "Journal"], ["created_at", "2016-04-21 08:21:29.877394"], ["updated_at", "2016-04-21 08:21:29.877394"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "articles" ("author", "year", "title", "journal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Luke"], ["year", 2009], ["title", "ohtuPruju"], ["journal", "ReadMe"], ["created_at", "2016-04-21 08:21:29.881349"], ["updated_at", "2016-04-21 08:21:29.881349"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "articles" ("author", "year", "title", "journal", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Luke"], ["year", 2009], ["title", "ohtuPruju"], ["journal", "ReadMe"], ["created_at", "2016-04-21 08:21:29.885755"], ["updated_at", "2016-04-21 08:21:29.885755"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:29 +0300
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:29 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[35mInproceeding Load (0.2ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+  Rendered inproceedings/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "books" ("author", "title", "publisher", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "MyString"], ["title", "MyString"], ["publisher", "MyString"], ["year", 1], ["created_at", "2016-04-21 08:21:29.930843"], ["updated_at", "2016-04-21 08:21:29.930843"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered books/_form.html.erb (14.3ms)
+  Rendered books/edit.html.erb (22.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "books" ("author", "title", "publisher", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Author"], ["title", "Title"], ["publisher", "Publisher"], ["year", 1], ["created_at", "2016-04-21 08:21:29.962006"], ["updated_at", "2016-04-21 08:21:29.962006"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "books" ("author", "title", "publisher", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Author"], ["title", "Title"], ["publisher", "Publisher"], ["year", 1], ["created_at", "2016-04-21 08:21:29.963640"], ["updated_at", "2016-04-21 08:21:29.963640"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered books/index.html.erb (2.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  Rendered books/_form.html.erb (1.8ms)
+  Rendered books/new.html.erb (2.5ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "books" ("author", "title", "publisher", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Author"], ["title", "Title"], ["publisher", "Publisher"], ["year", 1], ["created_at", "2016-04-21 08:21:29.983841"], ["updated_at", "2016-04-21 08:21:29.983841"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered books/show.html.erb (0.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "inproceedings" ("author", "title", "year", "booktitle", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Michael Jordan"], ["title", "Dunking"], ["year", "1992"], ["booktitle", "MyString"], ["created_at", "2016-04-21 08:21:29.992859"], ["updated_at", "2016-04-21 08:21:29.992859"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered inproceedings/_form.html.erb (3.0ms)
+  Rendered inproceedings/edit.html.erb (7.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  Rendered inproceedings/_form.html.erb (1.9ms)
+  Rendered inproceedings/new.html.erb (2.7ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "inproceedings" ("author", "title", "year", "booktitle", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Michael Jordan"], ["title", "Dunking"], ["year", "1992"], ["booktitle", "Booktitle"], ["created_at", "2016-04-21 08:21:30.028114"], ["updated_at", "2016-04-21 08:21:30.028114"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered inproceedings/show.html.erb (1.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by ArticlesController#showall as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered articles/showall.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 148ms (Views: 135.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "books" ("title", "publisher", "year", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Nimi"], ["publisher", "Joku"], ["year", 1999], ["author", "Kirjailija"], ["created_at", "2016-04-21 08:21:32.641044"], ["updated_at", "2016-04-21 08:21:32.641044"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/books/new" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#new as HTML
+  Rendered books/_form.html.erb (12.6ms)
+  Rendered books/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+Started POST "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "book"=>{"author"=>"HupsuNimi", "title"=>"KirjanNimi", "publisher"=>"Julkaisija", "year"=>"1999"}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "books" ("author", "title", "publisher", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "HupsuNimi"], ["title", "KirjanNimi"], ["publisher", "Julkaisija"], ["year", 1999], ["created_at", "2016-04-21 08:21:32.714236"], ["updated_at", "2016-04-21 08:21:32.714236"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/books
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "books" ("title", "publisher", "year", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Nimi"], ["publisher", "Joku"], ["year", 1999], ["author", "Kirjailija"], ["created_at", "2016-04-21 08:21:32.741456"], ["updated_at", "2016-04-21 08:21:32.741456"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/books/1" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "books" WHERE "books"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/books
+Completed 302 Found in 34ms (ActiveRecord: 0.7ms)
+Started GET "/books" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by ArticlesController#showall as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered articles/showall.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "inproceedings" ("author", "title", "booktitle", "year", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Kivi"], ["title", "Muuttolinnut pohjoisen pallonpuoliskon illassa"], ["booktitle", "Jeesus"], ["year", "2004"], ["created_at", "2016-04-21 08:21:32.813241"], ["updated_at", "2016-04-21 08:21:32.813241"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered inproceedings/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/inproceedings/new" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#new as HTML
+  Rendered inproceedings/_form.html.erb (2.9ms)
+  Rendered inproceedings/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Started POST "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "inproceeding"=>{"author"=>"Koira", "title"=>"Kevät", "year"=>"1765", "booktitle"=>"Vuodenajat"}, "commit"=>"Create Inproceeding"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "inproceedings" ("author", "title", "year", "booktitle", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Koira"], ["title", "Kevät"], ["year", "1765"], ["booktitle", "Vuodenajat"], ["created_at", "2016-04-21 08:21:32.862539"], ["updated_at", "2016-04-21 08:21:32.862539"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/inproceedings
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[36mInproceeding Load (0.2ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered inproceedings/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/inproceedings/new" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#new as HTML
+  Rendered inproceedings/_form.html.erb (5.9ms)
+  Rendered inproceedings/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+Started POST "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "inproceeding"=>{"author"=>"Hiiri", "title"=>"Juusto", "year"=>"1981", "booktitle"=>"Eläinten ravitsemustiede"}, "commit"=>"Create Inproceeding"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "inproceedings" ("author", "title", "year", "booktitle", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Hiiri"], ["title", "Juusto"], ["year", "1981"], ["booktitle", "Eläinten ravitsemustiede"], ["created_at", "2016-04-21 08:21:32.910004"], ["updated_at", "2016-04-21 08:21:32.910004"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/inproceedings
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered inproceedings/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[35mInproceeding Load (0.3ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+  Rendered inproceedings/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+Started DELETE "/inproceedings/1" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInproceeding Load (0.3ms)[0m  [1mSELECT  "inproceedings".* FROM "inproceedings" WHERE "inproceedings"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "inproceedings" WHERE "inproceedings"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/inproceedings
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+Started GET "/inproceedings" for 127.0.0.1 at 2016-04-21 11:21:32 +0300
+Processing by InproceedingsController#index as HTML
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered inproceedings/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.3ms)[0m  rollback transaction

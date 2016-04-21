@@ -9596,3 +9596,49 @@ Processing by FileController#downloadbibtex as HTML
   [1m[35mInproceeding Load (0.1ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
 Sent file public/raw.bib (0.1ms)
 Completed 200 OK in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-21 11:20:17 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#showall as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35mInproceeding Load (0.1ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+  Rendered articles/showall.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 409ms (Views: 396.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-21 11:20:18 +0300
+Processing by ArticlesController#showall as HTML
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+  Rendered articles/showall.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/raw" for ::1 at 2016-04-21 11:20:21 +0300
+Processing by FileController#downloadbibtex as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35mInproceeding Load (0.1ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+Sent file public/raw.bib (0.1ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/raw" for ::1 at 2016-04-21 11:20:21 +0300
+Processing by FileController#downloadbibtex as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  [1m[36mInproceeding Load (0.1ms)[0m  [1mSELECT "inproceedings".* FROM "inproceedings"[0m
+Sent file public/raw.bib (0.0ms)
+Completed 200 OK in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-21 11:31:31 +0300
+Processing by ArticlesController#showall as HTML
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mBook Load (1.6ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35mInproceeding Load (0.2ms)[0m  SELECT "inproceedings".* FROM "inproceedings"
+  Rendered articles/showall.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 60ms (Views: 51.8ms | ActiveRecord: 2.6ms)
