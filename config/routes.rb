@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   get '/showall', to: 'articles#showall'
   get '/raw', to: 'file#downloadbibtex'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
