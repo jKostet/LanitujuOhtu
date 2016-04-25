@@ -20,7 +20,7 @@
   <%= @book.year %>
 </p>
 
-<% if !(@book.tags.empty?) %>
+<% if !(@book.tags.nil?) && !(@book.tags.empty?) %>
     <p>
       <strong>Tags:</strong>
       <%= @book.tags %>
