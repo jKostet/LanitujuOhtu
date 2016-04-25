@@ -20,6 +20,12 @@
   <%= @inproceeding.booktitle %>
 </p>
 
+<% if !(@inproceeding.tags.nil?) && !(@inproceeding.tags.empty?)  %>
+    <p>
+      <strong>Tags:</strong>
+      <%= @inproceeding.tags %>
+    </p>
+<% end %>
 <pre>
   @inproceedings{<%= @inproceeding.key %>,
       author = {<%= @inproceeding.author %>},

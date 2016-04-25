@@ -22,6 +22,14 @@
   <strong>Year:</strong>
   <%= @article.year %>
 </p>
+
+<% if !(@article.tags.nil?) && !(@article.tags.empty?)  %>
+    <p>
+      <strong>Tags:</strong>
+      <%= @article.tags %>
+    </p>
+<% end %>
+
 <pre>
 <%= @article.generateBibtex %>
 </pre>
