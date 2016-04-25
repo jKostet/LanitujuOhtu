@@ -1,31 +1,12 @@
 <pre>
 
   <% @articles.each do |article| %>
-
-    @article{<%= article.key %>,
-      author = {<%= article.author %>},
-      title = {<%= article.title %>},
-      journal = {<%= article.journal %>},
-      year = {<%= article.year %>},
-    }
-
+   <%= article.generateBibtex %>
   <% end %>
   <% @books.each do |book| %>
-    @book{<%= book.key %>,
-      author = {<%= book.author %>},
-      title = {<%= book.title %>},
-      publisher = {<%= book.publisher %>},
-      year = {<%= book.year %>},
-    }
-
+    <%= book.generateBibtex %>
   <% end %>
   <% @inproceedings.each do |ip| %>
-    @inproceeding{<%= ip.key %>,
-      author = {<%= ip.author %>},
-      title = {<%= ip.title %>},
-      booktitle = {<%= ip.booktitle %>},
-      year = {<%= ip.year %>},
-    }
-
+    <%= ip.generateBibtex %>
   <% end %>
 </pre>
