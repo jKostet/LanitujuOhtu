@@ -26,3 +26,10 @@ Feature: Book Page
 		When I press Destroy on the specified book
 		Then Page should refresh and the book should no longer exist
 		
+    Scenario: Add tag for book
+		Given there exists a book without tag in the database
+		And I am on books page
+		And I press 'edit'
+		And I fill in 'Tags' with 'algorithm'
+		When I press 'update'
+		Then Book should be updated with new tag
