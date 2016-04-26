@@ -70,3 +70,27 @@ Then(/^The page should say "([^"]*)"$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
+
+Given /^there exists a book without tag in the database$/ do
+	Book.create title: "Nimi", publisher:"Joku", year:1999, author:"Kirjailija"
+end
+
+Given /^I am on books page$/ do
+	visit books_path
+end
+
+Given /^I press 'edit'$/ do
+	click_on('Edit')
+end
+
+Given /^I fill in 'Tags' with 'algorithm'$/ do
+	fill_in 'Tags', :with => "algorithm"
+end
+
+When /^I press 'update'$/ do
+	click_on('Update Book')
+end
+
+Then /^Book should be updated with new tag$/ do
+  expect(page).to have_content("Tags: algorithm")
+end
