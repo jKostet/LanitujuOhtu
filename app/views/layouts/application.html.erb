@@ -15,6 +15,13 @@
   <li><%= link_to 'show all', showall_path %></li>
 </ul>
 
+<% form_tag articles_path, :method => 'get' do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+
 <%= yield %>
 
 <div>
