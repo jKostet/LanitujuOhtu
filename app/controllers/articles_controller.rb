@@ -20,6 +20,8 @@
     @articles = Article.all
     @books = Book.all
     @inproceedings = Inproceeding.all
+    render :layout => false
+
   end
 
   # GET /articles/1/edit
@@ -74,6 +76,6 @@
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def article_params
-      params.require(:article).permit(:author, :title, :journal, :year)
+      params.require(:article).permit(:author, :title, :journal, :year, :tags)
     end
 end

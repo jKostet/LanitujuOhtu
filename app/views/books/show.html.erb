@@ -20,6 +20,13 @@
   <%= @book.year %>
 </p>
 
+<% if !(@book.tags.nil?) && !(@book.tags.empty?) %>
+    <p>
+      <strong>Tags:</strong>
+      <%= @book.tags %>
+    </p>
+<% end %>
+
 <pre>
   @book{<%= @book.key %>,
       author = {<%= @book.author %>},

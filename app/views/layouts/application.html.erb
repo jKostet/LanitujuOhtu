@@ -12,7 +12,14 @@
   <li><%= link_to 'articles', articles_path %></li>
   <li><%= link_to 'books', books_path %></li>
   <li><%= link_to 'inproceedings', inproceedings_path %></li>
+  <li><%= link_to 'show all', showall_path %></li>
 </ul>
+<div>
+  <%= form_tag('/search')  do %>
+      <%= text_field_tag :search, params[:search]%>
+      <%= submit_tag "Etsi", :name => nil  %>
+  <% end %>
+</div>
 
 <%= yield %>
 
@@ -21,8 +28,11 @@
 </div>
 
 
+<<<<<<< HEAD
 <div>
   <%= link_to "Raw", "/copypaste"%>
 </div>
+=======
+>>>>>>> 019b974e26ebc8e6f628081aa5077485e1e0088e
 </body>
 </html>

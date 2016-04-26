@@ -8,10 +8,14 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'articles#showall'
+  root 'articles#index'
 
   get '/showall', to: 'articles#showall'
   get '/raw', to: 'file#downloadbibtex'
+<<<<<<< HEAD
+=======
+  post '/search', to: 'search#index'
+>>>>>>> 019b974e26ebc8e6f628081aa5077485e1e0088e
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
