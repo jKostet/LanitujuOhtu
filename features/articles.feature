@@ -22,3 +22,11 @@ Feature: Article Page
     When I press creating button
     Then Should show an error message
     And Should not create new article
+
+  Scenario: Add tag for article
+    Given there exists an article without tag in the database
+    And I am on articles page
+    And I press 'edit'
+    And I fill in 'Tags' with 'kissat'
+    When I press 'update' article
+    Then Article should be updated with new tag

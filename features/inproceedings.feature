@@ -21,3 +21,11 @@ Feature: Inproceedings Page
     And I am on inproceedings page
     When I press 'destroy' button
     Then The list of inproceedings should not show created inproceeding
+
+  Scenario: Add tag for inproceeding
+    Given there exists an inproceeding without tags in the database
+    And I am on inproceedings page
+    And I press 'edit'
+    And I fill in 'Tags' with 'koirat'
+    When I press 'update' inproceeding
+    Then Inproceeding should be updated with new tag

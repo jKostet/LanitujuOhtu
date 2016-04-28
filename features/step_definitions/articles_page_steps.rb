@@ -54,4 +54,24 @@ Then /^Should not create new article$/ do
   expect(page).to_not have_content("@article{Jesse:1878:art1, author = {Jesse}, title = {""}, journal = {Journaali}, year = {1878}")
 end
 
+Given /^there exists an article without tag in the database$/ do
+  Article.create author: "Aa", title:"Tee", year:1999, journal:"Jii"
+end
+
+Given /^I am on articles page$/ do
+  visit articles_path
+end
+
+Given /^I fill in 'Tags' with 'kissat'$/ do
+  fill_in 'Tags', :with => "kissat"
+end
+
+When /^I press 'update' article$/ do
+  click_on('Update Article')
+end
+
+Then /^Article should be updated with new tag$/ do
+  expect(page).to have_content("Tags: kissat")
+end
+
 
