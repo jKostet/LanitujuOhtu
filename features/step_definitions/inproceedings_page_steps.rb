@@ -55,3 +55,19 @@ end
 Then /^The list of inproceedings should not show created inproceeding$/ do
   expect(page).to_not have_content("@inproceedings{Hiiri:1981:inp1, author = {Hiiri}, title = {Juusto}, booktitle = {Eläinten ravitsemustiede}, year = {1981}, }")
 end
+
+Given /^there exists an inproceeding without tags in the database$/ do
+  Inproceeding.create author: "Aatu", title:"Tee", year:2008, booktitle:"Bee"
+end
+
+Given /^I fill in 'Tags' with 'koirat'$/ do
+  fill_in 'Tags', :with => "koirat"
+end
+
+When /^I press 'update' inproceeding$/ do
+  click_on('Update Inproceeding')
+end
+
+Then /^Inproceeding should be updated with new tag$/ do
+  expect(page).to have_content("Tags: koirat")
+end
