@@ -5,6 +5,7 @@ RSpec.describe ArticlesController, type: :controller do
     before :each do
       FactoryGirl.create(:article)         
     end
+
   end
 
 end
