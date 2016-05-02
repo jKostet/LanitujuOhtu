@@ -5,4 +5,11 @@ FactoryGirl.define do
     title  "ohtuPruju"
     journal "ReadMe"
   end
+
+  factory :inproceedin do
+    author "Cat"
+    title "Fish"
+    booktitle "Food"
+    year 2008
+  end
 end
