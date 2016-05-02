@@ -6,6 +6,7 @@ RSpec.describe ArticlesController, type: :controller do
       FactoryGirl.create(:article)
       FactoryGirl.create(:inproceeding)
     end
+
   end
 
 
